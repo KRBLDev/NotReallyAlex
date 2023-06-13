@@ -118,7 +118,7 @@ footer p {
   .Discord,
   .Twitter,
   .YouTube,
-  .Instagram {
+  .Email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,14 +132,14 @@ footer p {
   .Discord:hover,
   .Twitter:hover,
   .YouTube:hover,
-  .Instagram:hover {
+  .Email:hover {
     transform: scale(1.1);
   }
   
   .Discord a,
   .Twitter a,
   .YouTube a,
-  .Instagram a {
+  .Email a {
     color: #7289da;
   }
   
@@ -151,7 +151,7 @@ footer p {
     color: #ff0000;
   }
   
-  .Instagram a {
+  .Email a {
     color: #c13584;
   }
   
