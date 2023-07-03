@@ -70,17 +70,20 @@ header {
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     align-items: center;
-  }
-  
-  .wrapper h2 {
+    text-align: center; /* Added */
+}
+
+.wrapper h2 {
     text-align: center;
     font-size: 40px;
-  }
-  
-  .wrapper p {
+    margin: 0 auto; /* Added */
+}
+
+.wrapper p {
     text-align: center;
     font-size: 20px;
-  }
+    margin: 0 auto; /* Added */
+}
 
 footer {
     background-color: none;
@@ -89,30 +92,30 @@ footer {
     padding: 20px;
     position: fixed;
     bottom: 0;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0;
-  }
+}
 
 body::-webkit-scrollbar {
     width: 10px;
     background-color: #f5f5f5;
-  }
+}
 
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background-color: #f5f5f5;
-  }
+}
 
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #555;
     border-radius: 5px;
-  }
+}
 
-  body::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
     background-color: #777;
-  }
+}
 
-  body::-webkit-scrollbar-thumb:active {
+body::-webkit-scrollbar-thumb:active {
     background-color: #999;
-  }
+}
